@@ -14,7 +14,7 @@ O objetivo final? **Dominar a tecnologia para farmar a tão sonhada moto!** 🏍
 
 <div align="center">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img alt="Status" src="https://img.shields.io/badge/Status-Em_Progresso-green?style=for-the-badge"/>
 </div>
@@ -46,7 +46,7 @@ Este é o mapa que vou seguir. Cada item é uma fase da jornada, e marcarei meu 
 - [ ] 🔐 **Modificadores de Acesso:** `public`, `private`, `protected`.
 - [ ] 🧬 **Herança:** Reutilização de código com `extends`.
 - [ ] 📏 **Interfaces e Classes Abstratas:** Definir "contratos" e estruturas para as classes.
-- [ ]  магические **Métodos Mágicos:** `__construct`, `__destruct`, `__get`, `__set`, etc.
+- [ ] 🧙 **Métodos Mágicos:** `__construct`, `__destruct`, `__get`, `__set`, etc.
 - [ ] 📦 **Namespaces e Autoloading:** Organizar o código e carregar classes automaticamente com o **Composer**.
 
 ### Fase 4: Banco de Dados com PHP (Onde a Mágica Acontece)
@@ -58,7 +58,7 @@ Este é o mapa que vou seguir. Cada item é uma fase da jornada, e marcarei meu 
 ### Fase 5: Ecossistema e Ferramentas Modernas (O Arsenal do Dev)
 - [ ] 📦 **Composer:** Gerenciador de dependências. Aprender a usar `composer.json`, `install` e `update`.
 - [ ] 🧭 **Padrões de Projeto (Design Patterns):** Conhecer os mais comuns (Singleton, Factory, Strategy, etc.).
-- [ ] 뼈대 **Frameworks:** Escolher um e mergulhar fundo.
+- [ ] 🏗️ **Frameworks:** Escolher um e mergulhar fundo.
     - [ ] **Laravel:** O mais popular, robusto e com uma comunidade gigante. Ótimo para o mercado de trabalho.
     - [ ] **Symfony:** Extremamente poderoso e modular. Base do Laravel e de muitos outros projetos.
 - [ ] 🧪 **Testes Automatizados:** Aprender a escrever testes unitários e de integração com **PHPUnit**.
