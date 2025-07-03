@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  # O único serviço que precisamos é a aplicação PHP com o servidor Apache.
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: meu-app-php
+    ports:
+      # Expõe a porta 80 do contêiner na porta 8080 da sua máquina.
+      - "8080:80"
+    volumes:
+      # Mapeia seu código local para dentro do contêiner para desenvolvimento em tempo real.
+      - ./src:/var/www/html
