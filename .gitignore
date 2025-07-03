@@ -1,0 +1,39 @@
+# Ignore compiled Java files and directories
+*.class
+target/
+build/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore log files and temporary files
+logs/
+*.log
+*.tmp
+temp/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore dependency-related files
+node_modules/
+vendor/
+*.jar
+*.war
+*.zip
+
+# Ignore environment variables and secrets
+.env
+.env.local
+config.local.json
+secrets.json
+
+# Ignore user-specific files
+*.swp
+*.bak
