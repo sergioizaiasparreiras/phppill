@@ -10,6 +10,41 @@ O objetivo final? **Dominar a tecnologia para farmar a tão sonhada moto!** 🏍
 
 ---
 
+## 🚀 Como Usar Este Repositório
+
+Este projeto foi configurado para rodar em um ambiente de desenvolvimento isolado usando Docker, o que garante que ele funcione da mesma forma em qualquer máquina.
+
+### Pré-requisitos
+* **Docker:** É necessário ter o [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e em execução na sua máquina.
+* **Git:** Essencial para clonar o repositório.
+
+### Passo a Passo para Iniciar o Ambiente
+
+1.  **Clone o Repositório:** Abra seu terminal e execute o comando abaixo para baixar os arquivos do projeto.
+    ```bash
+    git clone [https://github.com/seu-usuario/phppill.git](https://github.com/seu-usuario/phppill.git)
+    ```
+
+2.  **Entre na Pasta do Projeto:**
+    ```bash
+    cd phppill
+    ```
+
+3.  **Inicie o Ambiente Docker:** Este comando irá construir e iniciar o contêiner do PHP com Apache. O `-d` faz com que ele rode em segundo plano.
+    ```bash
+    docker-compose up -d
+    ```
+
+4.  **Acesse o Projeto:** Após a execução do comando, abra seu navegador e visite `http://localhost:8080`.
+
+### Estrutura e Funcionamento
+
+-   **Menu Principal (`src/index.php`):** A página inicial funciona como um menu inteligente. Ela lê automaticamente as pastas e arquivos de exercícios dentro do diretório `src/` e cria uma lista de links para cada um.
+-   **Adicionando Exercícios:** Para praticar um novo conceito, simplesmente crie uma pasta para o módulo (ex: `src/modulo_arrays/`) e adicione seu script PHP (ex: `exercicio_filtros.php`). Ao recarregar o `localhost:8080`, o link para seu novo exercício aparecerá no menu.
+-   **Parando o Ambiente:** Quando terminar de estudar, volte ao terminal na pasta do projeto e execute `docker-compose down` para desligar o contêiner.
+
+---
+
 ## 🎯 Status da Missão: Farmando a Moto
 
 <div align="center">
@@ -23,7 +58,7 @@ O objetivo final? **Dominar a tecnologia para farmar a tão sonhada moto!** 🏍
 
 ## 🗺️ O Roadmap Definitivo: Do Zero ao Herói do PHP
 
-Este é o mapa que vou seguir. Cada item é uma fase da jornada, e marcarei meu progresso aqui.
+Este é o mapa que vou seguir. Cada item é uma fase da jornada, e marcarei meu progresso aqui. Os exercícios práticos para cada tópico estão organizados em pastas neste repositório.
 
 ### Fase 1: Fundamentos da Linguagem (O Básico Bem Feito)
 - [ ] 🐘 **Sintaxe e Variáveis:** Entender a base, como declarar variáveis, tipos de dados (`string`, `int`, `float`, `bool`, `array`, `object`).
